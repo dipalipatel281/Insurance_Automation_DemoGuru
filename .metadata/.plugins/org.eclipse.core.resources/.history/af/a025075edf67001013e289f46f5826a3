@@ -1,0 +1,36 @@
+package DipaliPatel.FirstMavenProject_19July;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class RegisterPage {
+	
+
+		WebDriver driver;
+		
+		//WebElement username = driver.findElement (By.xpath(""));
+		
+		By firstname = By.name("firstname");
+		
+		By lastname = By.name("lastname");
+		
+		By email = By.name("email");
+		
+		By password = By.name("password");
+		
+		By newsletter = By.name("newsletter");
+		
+		By agree = By.name("agree");
+		
+		By submit = By.xpath("[@id=\"form-register\"]/div/button");
+		
+		
+		public void enterfirstname (String name) {
+			
+		driver.findElement(firstname);	
+			
+			
+		}
+	}
+
+

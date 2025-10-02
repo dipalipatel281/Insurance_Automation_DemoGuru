@@ -1,0 +1,17 @@
+package DipaliPatel.FirstMavenProject_19July;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class RegisterPage {
+	
+
+		WebDriver driver;
+		
+		//WebElement username = driver.findElement (By.xpath(""));
+		
+		By firstname = By.name(null);
+	}
+
+
